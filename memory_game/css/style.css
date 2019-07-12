@@ -53,13 +53,16 @@ img {
 }
 
 footer {
-	text-transform: uppercase;
 	padding: 20px;
+	text-transform: uppercase;
 	background-color: #0D2C40;
 	color: white;
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+	margin: 0 auto;
+	bottom: 0
+	position: absolute;
 }
 
 .copyright {
@@ -94,4 +97,8 @@ a:hover {
 	border-color: white;
 }
 
+.reset {
+	positon: center;
+	margin: 20px 0;
+}
 
